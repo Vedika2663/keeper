@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddIcon from '@mui/icons-material/Add';
+// import AddIcon from '@mui/icons-material/Add';
 import Fab from '@mui/material/Fab';
 import Zoom from '@mui/material/Zoom';
 
@@ -53,7 +53,8 @@ function CreateArea(props) {
         />
         {view && <Zoom in={true}>
         <Fab onClick={submitNote}>
-            <AddIcon />
+//             <AddIcon />
+            +
         </Fab>
         </Zoom>}
         
